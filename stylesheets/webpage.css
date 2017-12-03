@@ -15,7 +15,7 @@ body {
 span#firstHead {
     font-weight: 700;
 	/*color: #F7FCA8;*/
-	color: #50736D;
+	color: #FFC60E;
 	font-family: Lato;
     font-size: 48px;
 }
@@ -23,14 +23,14 @@ span#firstHead {
 span#secondaryHead {
     font-weight: 700;
 	/*color: #CCD269;*/
-	color: #50736D;
+	color: #FFC60E;
 	font-family: Lato;
     font-size: 36px;
 }
 
 a{
     /*color: #A1A838 !important;*/
-    color: #50736D !important;
+    color: #FFC60E !important;
     font-family: Lato;
     font-size: 24px;
 }
@@ -50,4 +50,8 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.transbox {
+ text-shadow: 3px 3px 5px #000000;
 }
