@@ -1,44 +1,53 @@
+
 body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-      background-color: #318455; /* Green */
-      color: #ffffff;
-  }
-  .bg-2 { 
-      background-color: #B98F45; /* Yellow */
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #8C3471; /* Purplish Pink */
-      color: #ffffff;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #ffffff;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	/*background-color: #5E2971;*/
 
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
+}
 
-  div.linkSpacing{
-  	word-spacing: 2rem;
-  }
+.main {
+	padding-top: 20vh;
+	margin-right: 6vw;
+	margin-left: 6vw;
+}
 
+span#firstHead {
+    font-weight: 700;
+	/*color: #F7FCA8;*/
+	color: #50736D;
+	font-family: Lato;
+    font-size: 48px;
+}
+
+span#secondaryHead {
+    font-weight: 700;
+	/*color: #CCD269;*/
+	color: #50736D;
+	font-family: Lato;
+    font-size: 36px;
+}
+
+a{
+    /*color: #A1A838 !important;*/
+    color: #50736D !important;
+    font-family: Lato;
+    font-size: 24px;
+}
+
+div.links {
+	word-spacing: 1.2rem;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("../images/blurredPittsburgh.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
