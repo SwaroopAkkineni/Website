@@ -1,7 +1,8 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
-	background-color: #5E2971;
+	/*background-color: #5E2971;*/
+
 }
 
 .main {
@@ -12,24 +13,40 @@ body {
 
 span#firstHead {
     font-weight: 700;
-	color: #F7FCA8;
-	ont-family: Lato;
+	/*color: #F7FCA8;*/
+	color: #50736D;
+	font-family: Lato;
     font-size: 48px;
 }
 
 span#secondaryHead {
     font-weight: 700;
-	color: #CCD269;
+	/*color: #CCD269;*/
+	color: #50736D;
 	font-family: Lato;
     font-size: 36px;
 }
 
 a{
-    color: #A1A838 !important;
+    /*color: #A1A838 !important;*/
+    color: #50736D !important;
     font-family: Lato;
     font-size: 24px;
 }
 
 div.links {
 	word-spacing: 1.2rem;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("../images/blurredPittsburgh.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
