@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- Theme Made By www.w3schools.com - No Copyright -->
-    <title>Bootstrap Theme Simply Me</title>
+    <title>Swaroop Akkineni</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="stylesheets/webpage.css">
+    <script src="scripts/scrolling.js"></script>
 </head>
 <body>
 
@@ -26,33 +27,41 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">WHO</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#who">WHO</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-    <h3 class="margin">WHO AM I</h3>
-    <img src="images/swaroopMarathon.jpg" class="img-responsive img-rounded margin" style="display:inline"  width="350" height="350">
-    <p>I'm an avid runner, programmer, lifter, aspiring Muay Thai Boxer, and proud Pitt Alumni</p>
-</div>
+<section id="who">
+    <div class="container-fluid bg-1 text-center">
+        <img src="images/swaroopMarathon.jpg" class="img-responsive img-rounded margin" style="display:inline"  width="350" height="350">
+        <p>I'm an avid runner, a programmer, an aspiring Muay Thai Boxer, and a proud Pitt Alumni</p>
+    </div>
+</section>
 
 <!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-    <h3 class="margin">MY PROJECTS</h3>
-</div>
+<section id="projects">
+    <div class="container-fluid bg-2 text-center">
+        <h3 class="margin">MY PROJECTS</h3>
+    </div>
+</section>
 
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">
-    <h3 class="margin">CONTACT ME</h3><br>
-    <a href="https://github.com/SwaroopAkkineni">
-        <img src="images/GitHub-Mark-Light-64px.png" class="img-responsive img-centered margin" style="display:inline" alt="https://www.google.com">
-    </a>
-</div>
+<section id="contact">
+    <div class="container-fluid bg-3 text-center">
+        <h3 class="margin">CONTACT ME</h3><br>
+        <a href="https://github.com/SwaroopAkkineni">
+            <img src="images/GitHub-Mark-Light-64px.png" class="img-responsive img-centered margin" style="display:inline" alt="https://www.google.com">
+        </a>
+        <a href="https://www.linkedin.com/in/swaroop-akkineni">
+            <img src="images/In-White-66px-R.png" class="img-responsive img-centered margin" style="display:inline" alt="https://www.google.com">
+        </a>
+    </div>
+</section>
 
 </body>
 </html>
