@@ -87,7 +87,8 @@ export default {
         text-align: left;
 
         .imageDiv {
-          padding-right: 10%;
+         text-align: center;
+         margin-left: -5% !important;
 
           .resize {
             height: 150px;
