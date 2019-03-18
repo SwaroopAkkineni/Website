@@ -20,21 +20,24 @@
       </div>
     </div>
     <div class="rightBar">
-      <p >About Me</p>
-      <p style="color:red !important;">Originally from New Jersey, I went to school
-      at the University of Pittsburgh, where I received a B.S. in Computer Engineering.
-      I then worked at UPMC Enterprises on the Clinical Tools team, where I worked with
-      Microsoft Research on the EmpowerMD Project and briefly worked on a chatbot. My team
-      eventually evolved into a separate startup called Abridge Ai, where I have been currently working at.
-      </p>
-      <p style="color:red !important;">I have experience working on Vue.js, React-Native, CSS/SCSS, Java, Hapi-Fhir Spring,
-        Python, Flask, Node.js, Docker, Kubernetes, Azure, GCP, MySql, and Firebase.
-        I'm looking for new opportunities that will challenge me and allow me learn a great deal more about
-        software architecture and a scaling services.
-      </p>
-      <p style="color:red !important;">
-        Fun Facts: I'm an avid runner, lifter, and Smash Bros player
-      </p>
+      <div class="body">
+        <h2>About Me</h2>
+        <p>Originally from New Jersey, I went to school
+        at the University of Pittsburgh, where I received a B.S. in Computer Engineering.
+        I then worked at UPMC Enterprises on the Clinical Tools team, where I worked with
+        Microsoft Research on the EmpowerMD Project and briefly worked on a chatbot. My team
+        eventually evolved into a separate startup called Abridge Ai, where I have been currently working at.
+        </p>
+        <p>I have experience working on Vue.js, React-Native, CSS/SCSS, Java, Hapi-Fhir Spring,
+          Python, Flask, Node.js, Docker, Kubernetes, Azure, GCP, MySql, and Firebase.
+          I'm looking for new opportunities that will challenge me and allow me learn a great deal more about
+          software architecture and a scaling services.
+        </p>
+        <p>
+          <p class="bold inline">Fun Facts: </p>
+          <p class="inline">I'm an avid runner, lifter, and Smash Bros player</p>
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -51,34 +54,32 @@ export default {
 
 <style lang="scss" scoped>
   .main {
-    padding: 0;
     margin: 0;
     min-height: 100% !important;
     height: 100%;
-
-    p {
-      display: block;
-      color: #ffffff !important;
-      font-size: 17px;
-      line-height: 2em !important;
-    }
-    a {
-      display: block;
-      color: #ffffff !important;
-      font-size: 17px;
-      line-height: 2em !important;
-    }
 
     .bold {
       font-weight: bold;
     }
 
+    .inline {
+      display: inline;
+    }
+
     .leftBar {
+      padding: 5% 0 0 0;
       background-position: left 0px;
-      background-color: #4BA3C3;
+      background-color: #230903;
       width: 15%;
       float: left;
       height: 100%;
+
+      a, p {
+        display: block;
+        color: #ffffff !important;
+        font-size: 17px;
+        line-height: 2em !important;
+      }
 
       .text{
         margin-left: 5%;
@@ -86,7 +87,6 @@ export default {
         text-align: left;
 
         .imageDiv {
-          padding-top: 40%;
           padding-right: 10%;
 
           .resize {
@@ -103,10 +103,17 @@ export default {
     }
 
     .rightBar{
+      padding: 5% 0 0 0;
       background-position: left 0px;
+      background-color: #fffffff;
+      color:  #230903;
       width: 85%;
-      float: right;
       height: 100%;
+      float: right;
+
+      .body {
+        margin: 0 10% 0 10%;
+      }
     }
   }
 </style>
