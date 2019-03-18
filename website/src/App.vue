@@ -16,11 +16,17 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  background: linear-gradient(45deg, #17ead9, #6078ea);
-  height: 100vh;
-  margin: 0;
-  background-attachment: fixed;
-}
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    background: #fff;
+    margin: 0 !important;
+    padding: 0;
+    background-repeat: no-repeat;
+  }
+  html, body, #app {
+    padding: 0;
+    margin: 0;
+    min-height: 100% !important;
+    height: 100%;
+  }
 </style>

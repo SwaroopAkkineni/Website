@@ -1,10 +1,12 @@
 <template>
-  <div class="mySite">
-    <p>Swaroop Akkineni</p>
-    <p>Software Engineer. Runner. Gamer.</p>
-    <a href="https://www.linkedin.com/in/swaroop-akkineni">
+  <div class="main">
+    <div class="leftBar">
+      <p>Swaroop Akkineni</p>
+      <p>Poop</p>
+    </div>
+    <!-- <a href="https://www.linkedin.com/in/swaroop-akkineni">
       <img src="../assets/linkedin.png">
-    </a>
+    </a> -->
   </div>
 </template>
 
@@ -18,18 +20,20 @@ export default {
 
 </script>
 
-<style>
-  .mySite {
-    align: left;
-    /* margin-top: 10%; */
-    margin-left: 5%;
+<style scoped>
+  .main {
+    padding: 0;
+    margin: 0;
+    min-height: 100% !important;
+    height: 100%;
   }
-
-  .image {
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+  .leftBar {
+    background-position: left 0px;
+    background-color: #59ABE3;
+    width: 30%;
+    clear: both;
+    display: block;
+    float: left;
+    height: 100%;
   }
 </style>
